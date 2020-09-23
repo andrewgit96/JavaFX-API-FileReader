@@ -15,7 +15,7 @@ public class fileReaderTester extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent parent = FXMLLoader.load(getClass().getResource("finalcoding.fxml"));
+        Parent parent = FXMLLoader.load(getClass().getResource("fileReader.fxml"));
 
         Scene scene = new Scene(parent);
         primaryStage.setTitle("Final Coding Test");
