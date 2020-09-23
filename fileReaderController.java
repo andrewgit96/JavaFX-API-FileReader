@@ -88,7 +88,7 @@ public class fileReaderController {
     void writeOutput() throws IOException {
 
 
-        File outFile = new File("NewExamFile.txt");
+        File outFile = new File("BagelShopReceipt.txt");
         FileOutputStream outFileStream = new FileOutputStream(outFile);
         PrintWriter outStream = new PrintWriter(outFileStream);
 
